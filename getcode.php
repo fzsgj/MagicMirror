@@ -3,7 +3,7 @@ header('Access-Control-Allow-Origin:*');
 header('Content-Type: application/json');
 if (isset($_POST['add'])) {
 	$add = $_POST['add'];
-	$mm = mysqli_connect('127.0.0.1','andy','123456','MM');
+	$mm = mysqli_connect('127.0.0.1','root','123456','MM');
 	if (!$mm) {
 		exit('<h1>数据库连接失败</h1>');
 	}
@@ -17,7 +17,7 @@ if (isset($_POST['add'])) {
 }
 if (isset($_POST['delete'])) {
 	$delete = (string)$_POST['delete'];
-	$mm = mysqli_connect('127.0.0.1','andy','123456','MM');
+	$mm = mysqli_connect('127.0.0.1','root','123456','MM');
 	if (!$mm) {
 		exit('<h1>数据库连接失败</h1>');
 	}
@@ -30,7 +30,7 @@ if (isset($_POST['delete'])) {
 	return;
 }
 $postcodes=[];
-$mm = mysqli_connect('127.0.0.1','andy','123456','MM');
+$mm = mysqli_connect('127.0.0.1','root','123456','MM');
 if (!$mm) {
 	exit('<h1>数据库连接失败</h1>');
 }
