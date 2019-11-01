@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>魔镜快递查询系统</title>
+	<title>魔镜快递</title>
 	<link rel="stylesheet" href="css/post.css">
 </head>
 <body>
