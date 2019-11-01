@@ -52,13 +52,7 @@
 				<br><b>birthdays:</b> <code>生日提醒</code> - <code>array</code>
 			</td>
 		</tr>
-		<tr>
-			<td><code>news</code></td>
-			<td>新闻相关配置,使用的是阿凡达API,需要申请2个key
-				<br><b>type:</b> <code>新闻类型</code> - <code>array</code>
-				<br><b>key:</b> <code>key</code> - <code>array</code>
-			</td>
-		</tr>
+		
 	</tbody>
 </table>
 
