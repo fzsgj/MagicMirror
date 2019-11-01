@@ -52,7 +52,6 @@
 				<br><b>birthdays:</b> <code>生日提醒</code> - <code>array</code>
 			</td>
 		</tr>
-		
 	</tbody>
 </table>
 
