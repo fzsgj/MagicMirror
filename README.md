@@ -1,13 +1,15 @@
 # 魔镜
 
-![](C:\Users\Administrator\Desktop\MagicMirror.png)
 
 主要功能：
 
 - 日期
 - 天气
 - 新闻
+- 节日提醒
 - 生日提醒
+- 快递查询
+- 快递跟踪
 - 问候语
 
 测试：
@@ -16,6 +18,8 @@
 ## 依赖
 - Apache
 - PHP
+- PHP-MySQL
+- MySQL
 
 ## 配置说明
 
